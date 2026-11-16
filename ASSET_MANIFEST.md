@@ -4,7 +4,9 @@ Keep a record for every external or generated asset. Do not commit large binarie
 
 | Asset ID | Purpose | Source/provider | Type/format | Storage path or URL | License/rights | Scale/poly budget | Status | Cost |
 |---|---|---|---|---|---|---|---|---|
-| placeholder-town-001 | Graybox environment | Unity primitives | Prefabs | TBD | Original | Low | Planned | $0 |
+| placeholder-town-001 | Graybox town (6 buildings, props, street) | Unity primitives via PrototypeSceneBuilder | Scene + .mat | GoldRushPrototype/Assets/_Project/Scenes/GoldRush_Graybox.unity (generated) | Original | Low (primitives) | Built, unverified | $0 |
+| placeholder-merchant-001 | Merchant NPC placeholder | Unity primitives | Prefab | GoldRushPrototype/Assets/_Project/Prefabs/Merchant_NPC_Placeholder.prefab (generated) | Original | Low (primitives) | Built, unverified | $0 |
+| dialogue-merchant-intro-001 | Merchant greeting text (placeholder copy) | Claude Code | JSON | GoldRushPrototype/Assets/_Project/Content/Dialogue/merchant_intro.json | Original | n/a | Draft, needs ChatGPT/director rewrite | $0 |
 
 ## Required checks
 - Interactive 3D assets need geometry, UVs/materials, suitable scale, pivots and collision strategy.

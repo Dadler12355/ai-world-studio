@@ -1,0 +1,17 @@
+# Unity text assets: normalize line endings
+*.cs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.unity text eol=lf linguist-generated
+*.prefab text eol=lf linguist-generated
+*.mat text eol=lf linguist-generated
+*.asset text eol=lf linguist-generated
+*.meta text eol=lf linguist-generated
+# Binaries (Git LFS to be decided before real assets are added)
+*.png binary
+*.jpg binary
+*.fbx binary
+*.glb binary
+*.wav binary
+*.mp3 binary
+*.mp4 binary

@@ -17,3 +17,17 @@
 *.p12
 # Generated large media (store externally unless explicitly approved)
 GeneratedAssets/
+# Unity (additional)
+[Mm]emoryCaptures/
+[Rr]ecordings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.apk
+*.aab
+*.unitypackage
+crashlytics-buildsettings.json

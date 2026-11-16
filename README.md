@@ -18,12 +18,13 @@ A human-directed AI production studio for playable Unity worlds, cinematic story
 3. [TASKS.md](TASKS.md) — milestones and backlog
 4. [CLAUDE.md](CLAUDE.md) — Claude Code instructions
 5. [ASSET_MANIFEST.md](ASSET_MANIFEST.md) — generated asset tracking
+6. [docs/SETUP.md](docs/SETUP.md) — software, accounts and connections checklist
 
 ## First project
 California Gold Rush vertical slice: walk through a town, speak to a merchant and complete one trading interaction. Build a desktop graybox first, then add art and voices.
 
 ## Status
-Documentation/bootstrap only. Unity, APIs, n8n and Claude worker connections are not yet verified. No working build is claimed.
+Graybox Unity project added in [GoldRushPrototype/](GoldRushPrototype/README.md): walkable town + merchant NPC placeholder. **Not yet opened in Unity or playtested.** C# passed a syntax check only. APIs, n8n and Unity MCP are not configured. Setup steps: [docs/SETUP.md](docs/SETUP.md).
 
 ## Security
 Never commit credentials. Paid generation and publishing require explicit approval.
